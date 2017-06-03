@@ -1,0 +1,18 @@
+<div id="app">
+  <div class="container">
+    <div class="row">
+       <div class="col-xs-12">
+         <a  [routerLink]="['']">Quotes</a>
+         <a [routerLink]="['new-quote']" >Add Quotes</a>
+         <a [routerLink]="['signup']" >註冊</a>
+         <a [routerLink]="['signin']" >登入</a>
+         
+      </div>
+    </div>
+       <div class="row">
+       <div class="col-xs-12">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>
